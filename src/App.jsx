@@ -17,6 +17,10 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 // AND IF THERE'S STILL TIME...
 // How can you improve the UI? How can you get that sorting arrow looking right?
 
+// Final notes
+// I do not have the time to add it, but I would move the list of users to a separate component
+// along with the sorting/filtering this would allow the same list to be used in future views
+
 function App() {
   const [filter, setFilter] = useState("")
   const [sortDirection, setSortDirection] = useState("asc")
